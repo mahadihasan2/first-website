@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .carousel-container{
+            width: 70%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .carousel-slide{
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="carousel-container">
+        <div class="carousel-slide">
+            <img src="img_mountains_wide.jpg" alt="">
+            <img src="img_nature_wide.jpg" alt="">
+            <img src="img_snow_wide.jpg" alt="">
+        </div>
+    </div>
+    
+
+    <button id="prev">prev</button>
+    <button id="next">next</button>
+
+    <script>
+        let carouselSlide = document.querySelector('.carousel-slide');
+        let carouselImages = document.querySelectorAll('.carousel-slide img');
+
+        const prevBtn = document.querySelector("#prev");
+        const nextBtn = document.querySelector('#next');
+        
+    </script>
+</body>
+
+</html>
